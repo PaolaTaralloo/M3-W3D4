@@ -1,0 +1,188 @@
+.logo{
+    width: 2em;
+}
+
+.account {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.iconBell{
+    font-size: 1.5em;
+    background-color:  #eeeeee;
+    border-radius: 50%;
+    padding: 0.3em;
+}
+
+.iconAccount{
+    margin-right: 0.5em;
+}
+
+.accountDropmenu{
+    padding-right: 1em;
+}
+
+.text-secondary-emphasis {
+    color: #7e7c7c !important;
+}
+
+#jumbtron{
+    background-color: rgb(125, 49, 255);
+    color: white;
+    padding-bottom: 0 !important;
+}
+
+.btn-success{
+    background-color: rgb(28, 210, 140) !important;
+}
+
+.buttonJumb{
+    width: 10em;
+    height: 3em;
+    
+}
+
+.textJumb h1 {
+    font-size: 1.8em !important;
+    margin: 0 !important;
+    margin-bottom: 0.3em !important;
+}
+
+.textJumb p {
+    font-weight: 100 !important; 
+    font-size: 1em !important;
+    opacity: 70%;
+    margin-bottom: 2em !important;
+}
+
+#banner{
+    background-color: white;
+    margin-bottom: 4em;
+}
+
+#bgIcon{
+    background-color: bisque;
+    display: flex;
+    height: 3em;
+    width: 3em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#recommended, #popular {
+    margin-bottom: 6em !important;
+}
+
+#trending{
+    margin-bottom: 8em !important;
+}
+
+.textCard{
+    color: #727272;
+}
+
+.textCard :nth-child(2) i {
+    color:  rgb(125, 49, 255);;
+}
+
+.iconCard{
+    margin-right: 0.3em;
+}
+
+/*
+.star {
+    font-size: 30px;
+    color: #d3d3d3; /* Colore grigio per stelle vuote 
+    cursor: pointer;
+    transition: color 0.2s linear;
+}
+/*
+.star.filled {
+    color: gold; Colore giallo per stelle piene 
+}
+
+
+.star:hover {
+    color: #ffcc00; /* Colore dorato durante il passaggio sopra la stella 
+}
+
+*/
+
+.priceCard{
+    font-weight: 700;
+}
+
+.priceCard span{
+    text-decoration: line-through;
+    color: #727272;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+.nameCard{
+    font-size: 0.9em !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #00000038;
+    border-radius: 50%;
+}
+
+.carousel-control-prev{
+    justify-content: flex-start;
+    left: -40px;
+    width: auto !important;
+
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+    right: -40px;
+    width: auto !important;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* 
+ANIMAZIONE 
+
+.cardStart{
+    transition: transform 0.5s;
+    transform-origin: top left;  
+}
+
+.cardStart:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+*/
+
+.hvr-grow-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+  .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 2;
+  }
+
+.carousel-inner{
+    overflow: visible;
+}
